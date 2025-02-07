@@ -25,7 +25,6 @@ class Program
 
     async static Task Main(string[] args)
     {
-        
         string subscriptionKey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         string region = "westeurope";
         var speechTranslationConfig = SpeechTranslationConfig.FromSubscription(subscriptionKey, region);        
