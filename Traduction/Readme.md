@@ -34,6 +34,20 @@ Le paramètre from n'est pas obligatoire, car la langue peut être détectée au
 ]
 ```
 
+#### Response
+```json
+[
+    {
+        "translations": [
+            {
+                "text": "Ce qui s’élève trop près du soleil finit par brûler",
+                "to": "fr"
+            }
+        ]
+    }
+]
+```
+
 #### Langue disponible
 
 ## Langues prises en charge par l'API de traduction
