@@ -17,7 +17,7 @@ Une API de traduction permet de convertir du texte d'une langue à une autre de 
 | `to` | `fr` |  
 | `from` | `el` |
 
-Le from n'est pas obligatoire il peut etre decté selon la langue mais il est toujours preferable de le mettre si vous connaissez la langue pour eviter les erreurs comme (chat: fr et chat: en)
+Le paramètre from n'est pas obligatoire, car la langue peut être détectée automatiquement. Cependant, il est toujours préférable de le spécifier si vous connaissez la langue, afin d'éviter des erreurs telles que (chat : fr et chat : en).
 
 #### Headers
 
@@ -31,6 +31,20 @@ Le from n'est pas obligatoire il peut etre decté selon la langue mais il est to
 ```json
 [
     {"Text":"Ἐκεῖνος ὃς ἀναβαίνει πάρα πολύ κοντά στον ἥλιο, τελικά καίγεται."}
+]
+```
+
+#### Response
+```json
+[
+    {
+        "translations": [
+            {
+                "text": "Ce qui s’élève trop près du soleil finit par brûler",
+                "to": "fr"
+            }
+        ]
+    }
 ]
 ```
 
