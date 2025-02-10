@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Vocale")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5337adb2e2b694d7008ef61926a66c9e8f0ddaff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87162ba0a162d7a51be0890404f376465c3bcd1b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Vocale")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Vocale")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
