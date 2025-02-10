@@ -5,6 +5,7 @@ using Microsoft.CognitiveServices.Speech;
 using Microsoft.CognitiveServices.Speech.Audio;
 
 //dotnet add package Microsoft.CognitiveServices.Speech
+//https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support?tabs=tts
 class Program 
 {
     // Config
